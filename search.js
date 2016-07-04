@@ -17,8 +17,8 @@ function getIPAdress(){
 function search() {
 	var mysql = require('mysql');
 	var conn = mysql.createConnection({
-		host: '10.166.224.233',
-		user: 'rw',
+		host: '59.111.123.208',
+		user: 'ro',
 		password: '123456',
 		database:'product',
 		port: 3306
@@ -41,8 +41,8 @@ var handleRequest = function(request, response) {
 	response.writeHead(200);
 	var mysql = require('mysql');
 	var conn = mysql.createConnection({
-		host: '10.166.224.233',
-		user: 'rw',
+		host: '59.111.123.208',
+		user: 'ro',
 		password: '123456',
 		database:'product',
 		port: 3306
